@@ -366,3 +366,57 @@ h3 {
   font-weight: 500;
   margin-top: 100px;
 }
+.eachOne {
+  display: flex; 
+  justify-content: center; 
+  flex-direction: column; 
+  align-items: center; 
+  height: 100%;
+  transition: transform 0.3s ease-in-out;
+  margin-right: 30px;
+  margin-top: 50px;
+  flex-basis: calc(33.33% - 50px); 
+}
+
+.eachOne:hover{
+  transform: scale(1.1);
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 70px auto;
+  width: fit-content;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info p {
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.contact-info a {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+  color: #0077b5; /* LinkedIn's brand color */
+  text-decoration: underline;
+}
+.contact-link a::after {
+  content: " - " attr(href);
+}
+
+@media (max-width: 600px) {
+  .contact-link a::after {
+      content: "";
+  }
+}
