@@ -169,6 +169,22 @@ body {
   margin-top: 40px;
 
 }
+.details-container-3 {
+  font-family: "Poppins", sans-serif;
+  margin: 20px;
+  padding: 1.5rem;
+  flex: 1;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
+  height: 450px;
+  min-width: 400px;
+  max-width: 500px;
+  margin-top: 40px;
+
+}
 .details-container-2 {
   font-family: "Poppins", sans-serif;
   padding: 1.5rem;
@@ -179,7 +195,7 @@ body {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
-  height: 600px;
+  height: 800px;
   width: fit-content;
   max-width: 445px;
   margin: 0 auto;
